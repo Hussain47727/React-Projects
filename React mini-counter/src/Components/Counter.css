@@ -1,0 +1,13 @@
+h1{
+    font-size: 45px;
+    color:black;
+}
+.btn button{
+    padding: 5px 20px;
+    margin: 10px;
+    font-size: 18px;
+    gap: 10px;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
