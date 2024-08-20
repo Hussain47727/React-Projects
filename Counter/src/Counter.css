@@ -1,0 +1,40 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    padding-top: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 60px;
+    box-shadow:10px 10px 10px  black;
+    background: purple;
+}
+span{
+    background: yellow;
+    padding: 5px;
+    border-radius: 20px;
+    color: green;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.btn button{
+    padding: 5px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    background: #000;
+    color: white;
+}
