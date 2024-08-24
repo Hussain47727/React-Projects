@@ -18,16 +18,5 @@
 
 // export default App;
 
-import React from 'react'
-
-function App() {
-  return (
-    <div>
-      hellow word
-    </div>
-  )
-}
-
-export default App
-
+the boy learned a lot of things from the desert sand and sheep 
 
