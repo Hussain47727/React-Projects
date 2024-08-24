@@ -1,22 +1,21 @@
-// import React, { useState } from "react";
+import React, { useState } from "react";
 
-// function App() {
-//   const [isOn, setIsOn] = useState(false); 
+function App() {
+  const [isOn, setIsOn] = useState(false); 
 
-//   const backgroundColor = isOn ? 'white' : 'darkgray'; 
-//   const btnText = isOn ? 'Turn Off' : 'Turn On'; 
-//   function startFunction() {
-//     setIsOn(!isOn); 
-//   }
+  const backgroundColor = isOn ? 'white' : 'darkgray'; 
+  const btnText = isOn ? 'Turn Off' : 'Turn On'; 
+  function startFunction() {
+    setIsOn(!isOn); 
+  }
 
-//   return (
-//     <div style={{ backgroundColor, display: 'flex', height: '100vh', justifyContent: 'center', alignItems: 'center' }}>
-//       <button onClick={startFunction}>{btnText}</button>
-//     </div>
-//   );
-// }
+  return (
+    <div style={{ backgroundColor, display: 'flex', height: '100vh', justifyContent: 'center', alignItems: 'center' }}>
+      <button onClick={startFunction}>{btnText}</button>
+    </div>
+  );
+}
 
-// export default App;
+export default App;
 
-the boy learned a lot of things from the desert sand and sheep 
 
