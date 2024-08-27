@@ -5,11 +5,12 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-  let a = 0;
+  const a = useRef(0)
 
  useEffect(() => {
-  a = a + 1;
-console.log(`added plus  ${a}`)
+console.log(`added plus  ${a.current}`)
+a.current.style.backgroundColor = 'yellow'
+a.current.style.textColor = 'white'
  })
  
   
@@ -26,7 +27,7 @@ console.log(`added plus  ${a}`)
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+        <button ref={a} onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
         <p>
