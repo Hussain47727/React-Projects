@@ -9,8 +9,9 @@ function Profile() {
             {loggedIn == 1 ? <h1>user 1</h1>
                 : loggedIn ==2? <h1>user 2</h1>
                     : <h1>user 3</h1>}
-
-        </div>
+<h1>hellow world</h1>
+<p>iam a big developer</p>
+  </div>
     )
 }
 
