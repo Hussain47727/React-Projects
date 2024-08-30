@@ -12,12 +12,43 @@ function App() {
   return (
     <div style={{ backgroundColor, display: 'flex', height: '100vh', justifyContent: 'center', alignItems: 'center' }}>
       <button onClick={startFunction}>{btnText}</button>
+      <button onClick={startFunction}>{btnText}</button>
+      <button onClick={startFunction}>{btnText}</button>
+      <button onClick={startFunction}>{btnText}</button>
+      <button onClick={startFunction}>{btnText}</button>
+      <button onClick={startFunction}>{btnText}</button>
+      <button onClick={startFunction}>{btnText}</button>
+      <button onClick={startFunction}>{btnText}</button>
+      <button onClick={startFunction}>{btnText}</button>
+      <button onClick={startFunction}>{btnText}</button>
+      <button onClick={startFunction}>{btnText}</button>
+      <button onClick={startFunction}>{btnText}</button>
+      <button onClick={startFunction}>{btnText}</button>
+      <button onClick={startFunction}>{btnText}</button>
+      <button onClick={startFunction}>{btnText}</button>
+      <button onClick={startFunction}>{btnText}</button>
+      <button onClick={startFunction}>{btnText}</button>
+      <button onClick={startFunction}>{btnText}</button>
+      <button onClick={startFunction}>{btnText}</button>
+      <button onClick={startFunction}>{btnText}</button>
+      <button onClick={startFunction}>{btnText}</button>
+      <button onClick={startFunction}>{btnText}</button>
+      <button onClick={startFunction}>{btnText}</button>
+      <button onClick={startFunction}>{btnText}</button>
+      <button onClick={startFunction}>{btnText}</button>
+      <button onClick={startFunction}>{btnText}</button>
+      <button onClick={startFunction}>{btnText}</button>
+      <button onClick={startFunction}>{btnText}</button>
+      <button onClick={startFunction}>{btnText}</button>
+      <button onClick={startFunction}>{btnText}</button>
+      <button onClick={startFunction}>{btnText}</button>
+
     </div>
   );
 }
 
 export default App;
 
-hellow i want that something from you bro i trust you 
+
 
 
