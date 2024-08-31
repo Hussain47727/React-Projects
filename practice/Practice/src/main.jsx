@@ -23,13 +23,15 @@ const router = createBrowserRouter([
     element: (
       <>
       <Navbar />
-      <div>hello i am a about page</div>
-      <div>hello i am a about page</div>
-      <div>hello i am a about page</div>
-      <div>hello i am a about page</div>
-      <div>hello i am a about page</div>
-      <div>hello i am a about page</div>
-      <div>hello i am a about page</div>
+      <Navbar />
+      <Navbar />
+      <Navbar />
+      <Navbar />
+      <Navbar />
+      <Navbar />
+      <Navbar />
+      <Navbar />
+      <Navbar />
       <div>hello i am a about page</div>
       </>
     ),
