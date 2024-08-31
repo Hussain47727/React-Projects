@@ -24,6 +24,13 @@ const router = createBrowserRouter([
       <>
       <Navbar />
       <div>hello i am a about page</div>
+      <div>hello i am a about page</div>
+      <div>hello i am a about page</div>
+      <div>hello i am a about page</div>
+      <div>hello i am a about page</div>
+      <div>hello i am a about page</div>
+      <div>hello i am a about page</div>
+      <div>hello i am a about page</div>
       </>
     ),
   },
