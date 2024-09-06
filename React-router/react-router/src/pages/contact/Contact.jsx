@@ -9,5 +9,13 @@ function Contact() {
     </div>
   )
 }
-
+let a = function Form(){
+  return(
+    <>
+    <div className="form">
+      i am a form 
+    </div>
+    </>
+  )
+}
 export default Contact
