@@ -15,17 +15,6 @@ const router = createBrowserRouter([
     element: (
       <div>
         <Navbar />
-        <Navbar />
-        <Navbar />
-        <Navbar />
-        <Navbar />
-        <Navbar />
-        <Navbar />
-        <Navbar />
-        <Navbar />
-        <Navbar />
-        <Navbar />
-        <Navbar />
         <h2>hello i am home page</h2>
       </div>
     ),
