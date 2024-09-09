@@ -6,16 +6,16 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import MainBlog from './page/blog/MainBlog.jsx';
-import About from './page/About/About.jsx';
-import Contact from './page/contact/Contact.jsx';
-// import Home from './page/hontact/Home.jsx';
+// import MainBlog from './page/blog/MainBlog.jsx';
+// import About from './page/About/About.jsx';
+// import Contact from './page/contact/Contact.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div><App /></div>,
+    element: <div><Home /></div>,
   },
+ 
   {
     path: "/about",
     element: <div><About /></div>,

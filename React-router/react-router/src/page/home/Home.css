@@ -1,5 +1,8 @@
 body{
     background-image: url(./bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
 }
 h1{
     color: red;
