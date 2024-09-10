@@ -1,9 +1,7 @@
 import { useState } from 'react'
+import { Outlet } from 'react-router-dom'
 import './App.css'
-import Home from './components/Pages/Home'
-import About from './components/Pages/About'
-import Blog from './components/Pages/Blog'
-import Contact from './components/Pages/Contact'
+import Header from './components/Header/Header'
 
 
 function App() {
@@ -11,7 +9,8 @@ function App() {
 
   return (
     <>
-      <Home />
+    <Header />
+    <Outlet />
     </>
   )
 }
