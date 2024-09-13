@@ -11,9 +11,7 @@ import {
 
 const router = createBrowserRouter(
   createsRoutesFromElements(
-  <Routes path='/' element={<App/>}>
-    <Routes main element={<Home/>}>
-  </Routes>
+  
   )
 )
 
