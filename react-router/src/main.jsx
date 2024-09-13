@@ -11,7 +11,8 @@ import {
 
 const router = createBrowserRouter(
   createsRoutesFromElements(
-  
+  Path : '/',
+  Element : <app></app>
   )
 )
 
