@@ -1,1 +1,1 @@
-eact Project
+act Project
